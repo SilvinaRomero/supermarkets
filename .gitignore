@@ -1,0 +1,7 @@
+# Ignorar carpetas del venv
+Include/
+Lib/
+Scripts/
+
+# Ignorar archivos .cfg del venv
+*.cfg
