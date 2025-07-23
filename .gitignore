@@ -2,6 +2,11 @@
 Include/
 Lib/
 Scripts/
+share/
 
 # Ignorar archivos .cfg del venv
 *.cfg
+.env
+
+__pycache__/
+*.pyc
