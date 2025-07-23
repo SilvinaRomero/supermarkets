@@ -38,5 +38,12 @@ def get_daily_stats():
     conn.close()
     return df
 
+# Función para recuperar los datos de supermarkets
+def get_supermarkets():
+    conn = get_connection()
+    df = pd.read_sql("SELECT * FROM supermarkets", conn)
+    conn.close()
+    return df
+
 
 # df = get_daily_stats()

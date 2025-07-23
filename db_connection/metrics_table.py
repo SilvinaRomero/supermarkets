@@ -42,16 +42,17 @@ def metrics_add_size():
 
 
 # insertar registros
-def save_metrics(model_name, accuracy, precision, recall, f1_score, train_size, test_size):
+def save_metrics(model_name, accuracy, precision_score, recall, f1_score, train_date, train_size, test_size):
     conn = get_connection()
     cursor = conn.cursor()
 
     query = """
-    INSERT INTO metrics (model_name, accuracy, precision, recall, f1_score, train_size, test_size)
-    VALUES (%s, %s, %s, %s, %s, %s, %s)
+    
+    INSERT INTO metrics (model_name, accuracy, precision_score, recall, f1_score, train_date, train_size, test_size)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
     """
 
-    cursor.execute(query, (model_name, accuracy, precision, recall, f1_score, train_size, test_size))
+    cursor.execute(query, (model_name, accuracy, precision_score, recall, f1_score,train_date, train_size, test_size))
     conn.commit()
     cursor.close()
     conn.close()
