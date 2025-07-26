@@ -10,3 +10,5 @@ share/
 
 __pycache__/
 *.pyc
+
+*.csv
