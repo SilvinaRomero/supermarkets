@@ -1,6 +1,10 @@
 # 🛍 Proyecto: Predicción de productos en oferta en Supermercados
 
-Este proyecto implementa un modelo de **Machine Learning** para predecir el comportamiento de productos en supermercados. Incluye la conexión a base de datos, procesamiento de datos, entrenamiento del modelo, evaluación y visualización de métricas.
+Este proyecto implementa un modelo de **Machine** Learning para predecir el comportamiento de productos en supermercados. Incluye la conexión a base de datos, procesamiento de datos, entrenamiento del modelo, evaluación y visualización de métricas.
+
+Los datos utilizados para el entrenamiento se obtuvieron mediante web scraping automatizado, desarrollado en un proyecto aparte con Node.js y Puppeteer, que recopila información de productos desde sitios web de supermercados y la almacena en una base de datos MySQL.
+
+Este es un proyecto con **fines educativos**, orientado a aplicar técnicas de análisis de datos y Machine Learning en un caso práctico real.
 
 ---
 
