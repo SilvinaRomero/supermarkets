@@ -1,4 +1,4 @@
-# 🛍 Proyecto: Predicción en Supermercados
+# 🛍 Proyecto: Predicción de productos en oferta en Supermercados
 
 Este proyecto implementa un modelo de **Machine Learning** para predecir el comportamiento de productos en supermercados. Incluye la conexión a base de datos, procesamiento de datos, entrenamiento del modelo, evaluación y visualización de métricas.
 
